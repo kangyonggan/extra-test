@@ -18,7 +18,7 @@ public class Demo08 {
      *
      * @param count
      */
-    @Count(interval = 1000 * 10, count = 5)
+    @Count(interval = 1000 * 10, count = 5, interrupt = true)
     public static char hello(int count) {
         System.out.println(String.format("时间：%s, 第%d次调用", format.format(new Date()), count));
         return 0;

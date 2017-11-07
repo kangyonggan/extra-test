@@ -9,8 +9,7 @@ import com.kangyonggan.extra.handle.CountHandle;
 public class RedisCountHandle implements CountHandle {
 
     @Override
-    public boolean limit(String key, long interval, int count, boolean interrupt) {
-        return false;
+    public void limit(String key, long interval, int count, boolean interrupt) {
     }
 
 }
