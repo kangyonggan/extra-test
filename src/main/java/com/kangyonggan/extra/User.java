@@ -6,7 +6,7 @@ import com.kangyonggan.extra.annotation.Valid;
  * @author kangyonggan
  * @since 11/7/17
  */
-public class User {
+public class User extends Person {
 
     @Valid(required = true)
     private Long id;

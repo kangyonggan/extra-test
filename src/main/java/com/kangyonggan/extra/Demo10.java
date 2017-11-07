@@ -9,7 +9,7 @@ import com.kangyonggan.extra.annotation.Valid;
  */
 public class Demo10 {
 
-    @Valid(interrupt = true)
+    @Valid(interrupt = true, handle = Log4j2ValidHandle.class)
     public static void login(User user) {
         System.out.println(user);
     }
@@ -18,7 +18,7 @@ public class Demo10 {
         User user = new User();
         user.setId(1L);
         user.setUsername("asdasdasdasd");
-        user.setPassword("1234@5678");
+        user.setPassword("12345678");
         login(user);
     }
 
