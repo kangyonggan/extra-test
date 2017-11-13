@@ -8,7 +8,7 @@ import com.kangyonggan.extra.annotation.Log;
  */
 public class Demo05 {
 
-    @Log
+//    @Log
     public void helloxxx() {
         new Thread(){
             @Override

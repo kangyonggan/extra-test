@@ -8,10 +8,13 @@ import com.kangyonggan.extra.annotation.Log;
  */
 public class Demo06 {
 
-    @Log
+//    @Log
     public void helloNull(String name) {
         if (name == null) {
-            return;
+            for (int i = 0; i < 10; i++) {
+                System.out.println(i);
+            }
+            return ;
         }
 
         if (name.length() == 0) {

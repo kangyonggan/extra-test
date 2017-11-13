@@ -8,7 +8,7 @@ import com.kangyonggan.extra.annotation.CacheDel;
  */
 public class Demo02 {
 
-    @CacheDel(key = "hello:${name}")
+//    @CacheDel(key = "hello:${name}")
     public static String hello(String name) {
         if (name == null) {
             return name;

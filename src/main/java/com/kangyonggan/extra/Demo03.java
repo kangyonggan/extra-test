@@ -8,7 +8,7 @@ import com.kangyonggan.extra.annotation.Log;
  */
 public class Demo03 {
 
-    @Log
+//    @Log
     public static String hello(String name) {
         if (name == null) {
             return name;

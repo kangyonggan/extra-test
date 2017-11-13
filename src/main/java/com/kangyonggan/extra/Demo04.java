@@ -8,7 +8,7 @@ import com.kangyonggan.extra.annotation.Log;
  */
 public class Demo04 {
 
-    @Log
+//    @Log
     public void hello() {
 
     }
